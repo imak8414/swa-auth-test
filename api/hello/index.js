@@ -1,6 +1,6 @@
-module.exports = async function (context, req) {
-  context.res = {
+export async function handler(req, context) {
+  return {
     status: 200,
     body: "Hello from API"
   };
-};
+}

@@ -3,7 +3,7 @@
     {
       "route": "/api/*",
       "methods": ["GET"],
-      "allowedRoles": ["registeredusers"]
+      "allowedRoles": ["anonymous"]
     },
     {
       "route": "/api/*",
